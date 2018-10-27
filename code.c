@@ -6,7 +6,7 @@ int main(void)
 	
     int K=66, e=114, n=117, N=110, Y=97;
 
-    printf("Digite um número entre 10 e 20: ");
+    printf("Digite um número inteiro entre 10 e 20: ");
     scanf("%d", &w);
 
 if(w >= 10 && w <=20)
