@@ -3,7 +3,8 @@
 int main(void)
 {
     int i, j, w;
-	int K=66, e=114, n=117, N=110, Y=97;
+	
+    int K=66, e=114, n=117, N=110, Y=97;
 
     printf("Digite um número entre 10 e 20: ");
     scanf("%d", &w);
@@ -35,11 +36,8 @@ if(w >= 10 && w <=20){
         printf("\n");
     }
 
-
 for(i=0; i<w/2; i++){
-
-	printf(" ");
-
+    printf(" ");
 }
 
 printf("%c%c%c%c%c",K, e, n, N, Y);
