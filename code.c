@@ -9,7 +9,8 @@ int main(void)
     printf("Digite um número entre 10 e 20: ");
     scanf("%d", &w);
 
-if(w >= 10 && w <=20){
+if(w >= 10 && w <=20)
+{
 
     for(i=w/2; i<=w; i+=2)
     {
@@ -36,7 +37,8 @@ if(w >= 10 && w <=20){
         printf("\n");
     }
 
-for(i=0; i<w/2; i++){
+for(i=0; i<w/2; i++)
+{
     printf(" ");
 }
 
@@ -62,9 +64,9 @@ printf("\n");
     }
 
 }
-
-else {
-	printf("\nEscolha um número entre 10 e 20, %c%c%c%c%c%c%c%c\n\n", 101,109,98,117,115,116,101,33);
+else 
+{
+    printf("\nEscolha um número entre 10 e 20, %c%c%c%c%c%c%c%c\n\n", 101,109,98,117,115,116,101,33);
 }
 
     return 0;
