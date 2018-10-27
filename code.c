@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int i, j, w;
 	int K=66, e=114, n=117, N=110, Y=97;
