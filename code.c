@@ -64,6 +64,7 @@ printf("\n");
     }
 
 }
+
 else 
 {
     printf("\nEscolha um número entre 10 e 20, %c%c%c%c%c%c%c%c\n\n", 101,109,98,117,115,116,101,33);
