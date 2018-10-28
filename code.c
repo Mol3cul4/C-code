@@ -15,7 +15,7 @@ int main(void)
    
     scanf("%d", &w);
 
-if(w ==c)
+if(w==c)
 {
 
     for(i=w/2; i<=w; i+=2)
