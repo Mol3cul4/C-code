@@ -1,0 +1,92 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int i, j, w;
+	
+    int K=66, e=114, n=117, N=110, Y=97;
+
+    char a = 'B';
+    char b = '4';
+    int c = a - b;
+	
+    printf("%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%C%c%c%c%c%c%c%c%c%c%c%c%c%c\n"
+	   ,81,117,97,108,32,97,32,100,97,116,97,32,100,111,32,110,111,115,115,111
+	   ,32,112,114,105,109,101,105,114,111,32,98,101,105,106,111,63);
+   
+    scanf("%d", &w);
+
+if(w==c)
+{
+
+    for(i=w/2; i<=w; i+=2)
+    {
+        for(j=1; j<w-i; j+=2)
+        {
+            printf(" ");
+        }
+
+        for(j=1; j<=i; j++)
+        {
+            printf("*");
+        }
+
+        for(j=1; j<=w-i; j++)
+        {
+            printf(" ");
+        }
+
+        for(j=1; j<=i; j++)
+        {
+            printf("*");
+        }
+
+        printf("\n");
+    }
+
+for(i=0; i<w/2; i++)
+{
+    printf(" ");
+}
+
+printf("%c%c%c%c%c",K, e, n, N, Y);
+
+printf("%c%c%c%c%c%c%c%c%c%c%c%c\n", 4*11,32,10*10+1,117,32,116,101,4*8,97,109,111,33);
+	
+for(i=0; i<w/2; i++)
+{
+    printf(" ");
+}
+
+printf("  %c%c%c%c%c%c%c%c%c%c%c%c", 67,97,115,9*10+7,4*8,90+9,111,109,105,103,111,3*11);
+
+printf("\n");
+
+    for(i=w; i>=1; i--)
+    {
+        for(j=i; j<w; j++)
+        {
+            printf(" ");
+        }
+
+        for(j=1; j<=(i*2)-1; j++)
+        {
+            printf("*");
+        }
+
+        printf("\n");
+    }
+
+}
+
+else if (w > c) 
+{
+	printf("\nEscolha um número menor, %c%c%c%c%c%c%c%c\n\n", 101,109,98,117,115,116,101,33);
+}
+
+else if (w < c) 
+{
+	printf("\nEscolha um número maior, %c%c%c%c%c%c%c%c%c%c%c\n\n", 101,115,116,97,103,105,97,114,105,97,33);
+}
+    return 0;
+}
