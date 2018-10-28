@@ -6,10 +6,10 @@ int main(void)
 	
     int K=66, e=114, n=117, N=110, Y=97;
 
-    printf("Digite um número inteiro entre 10 e 20: ");
+    printf("Digite um número inteiro entre 14 e 20: ");
     scanf("%d", &w);
 
-if(w >= 10 && w <=20)
+if(w >= 14 && w <=20)
 {
 
     for(i=w/2; i<=w; i+=2)
@@ -67,7 +67,7 @@ printf("\n");
 
 else 
 {
-    printf("\nEscolha um número entre 10 e 20, %c%c%c%c%c%c%c%c\n\n", 101,109,98,117,115,116,101,33);
+    printf("\nEscolha um número entre 14 e 20, %c%c%c%c%c%c%c%c\n\n", 101,109,98,117,115,116,101,33);
 }
 
     return 0;
