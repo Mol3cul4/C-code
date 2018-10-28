@@ -78,12 +78,14 @@ printf("\n");
 
 }
 
-else if (w > c) {
+else if (w > c) 
+{
 	printf("\nEscolha um número menor, %c%c%c%c%c%c%c%c\n\n", 101,109,98,117,115,116,101,33);
 }
 
-else if (w < c) {
-	printf("\nEscolha um número maior, %c%c%c%c%c%c%c%c\n\n", 101,109,98,117,115,116,101,33);
+else if (w < c) 
+{
+	printf("\nEscolha um número maior, %c%c%c%c%c%c%c%c%c%c%c\n\n", 101,115,116,97,103,105,97,114,105,97,33);
 }
     return 0;
 }
