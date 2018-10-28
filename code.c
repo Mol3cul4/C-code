@@ -11,7 +11,7 @@ int main(void)
     int c = a - b;
 
     printf("Digite o número de uma data especial: \n");
-    printf("Dica: Entre 10 e 20\n");
+    printf("Dica: Entre 1 e 30\n");
    
     scanf("%d", &w);
 
