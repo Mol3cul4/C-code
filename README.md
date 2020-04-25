@@ -1,2 +1,3 @@
 # C code
-A C code. 4b656E6E79
+
+This repository will save many C programming exercises 
